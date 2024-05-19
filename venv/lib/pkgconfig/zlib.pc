@@ -1,0 +1,13 @@
+prefix=/Users/ketak/Desktop/AbhiKarma/venv
+exec_prefix=/Users/ketak/Desktop/AbhiKarma/venv
+libdir=/Users/ketak/Desktop/AbhiKarma/venv/lib
+sharedlibdir=/Users/ketak/Desktop/AbhiKarma/venv/lib
+includedir=/Users/ketak/Desktop/AbhiKarma/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
